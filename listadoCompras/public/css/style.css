@@ -1,0 +1,141 @@
+#descripcion, #lista, #desktop{
+    display: none;
+}
+
+header{
+    align-items: center;
+    background: #009688;
+    color: #212121;
+    display: flex;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 30px;
+    height: 85px;
+    justify-content: center;
+}
+
+header p{
+    min-width: max-content;
+}
+
+body{
+        background: #B2DFDB;
+}
+
+#botonCargar{
+    background: #009688;
+    border-radius: 50%;
+    border: solid #009688;
+    bottom: 30px;
+    color: #212121;
+    height: 80px;
+    position: absolute;
+    right: 30px;
+    width: 80px;
+}
+
+.modal-footer{
+    background: #B2DFDB;
+}
+
+#cargaDatosAdd{
+    background: #009688;
+}
+
+#cargaDatosCerrar{
+    background: #009688;
+}
+
+#inicio{
+    color: #212121;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 20px;
+    padding: 75px;
+}
+
+.inicioImg{
+    font-size: 300px;
+    padding: 50px;
+    width: 50vh;
+}
+
+
+.pantallaListadoIcono{
+    padding: 6px;
+    width: 7vh;
+}
+
+#descripcion{
+    padding: 50px;
+    text-align: center;
+}
+
+.descripcionIcono{
+    width: 200px;
+}
+
+#descripcionCerrar{   
+    background: transparent;
+    border: transparent;
+    width: 7vh;
+}
+
+#lista{
+   font-family: 'Yusei Magic', sans-serif; 
+}
+
+
+
+@media only screen and (min-width: 1024px){
+
+    header{
+        font-size: 50px;
+        height: 10vh;
+        width: 100%;
+    }
+
+    #desktop{
+        display: block;
+        float: left;
+        font-family: 'Yusei Magic', sans-serif;
+        margin-left: 5vw;
+        margin-top: 5vh;
+        width: 40vw;
+    }
+
+    #cargaDatosAg{
+        background: #009688;
+        border: #009688;
+        color: #212121;
+        font-size: 1rem;
+    }
+
+    #inicio{
+        float: right;
+        width: 75vh;
+    }
+
+    #botonCargar{
+       display: none;
+       visibility: hidden;
+    }
+
+    #lista{
+        float: right;
+        font-family: 'Yusei Magic', sans-serif;
+        margin-right: 3vh;
+        margin-top: 8vh;
+        width: 75vh;
+    }
+
+    #lista li{
+        width: 100%;
+    }
+     
+    #descripcion{
+        float: right;
+        padding: 50px;
+        text-align: center;
+        width: 90vh;
+    }
+
+} 
